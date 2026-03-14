@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>DARK PRODUCTION</title>
+
+<style>
+
+body{
+margin:0;
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:linear-gradient(120deg,#1b1b1b,#000);
+font-family:Arial;
+color:white;
+overflow:hidden;
+}
+
+/* карточка */
+
+.card{
+width:700px;
+height:380px;
+background:rgba(255,255,255,0.05);
+border:1px solid rgba(255,255,255,0.2);
+border-radius:25px;
+backdrop-filter: blur(20px);
+padding:50px;
+position:relative;
+}
+
+/* текст */
+
+h1{
+font-size:50px;
+margin:0;
+}
+
+.sub{
+color:#aaa;
+margin-top:10px;
+}
+
+/* кнопки */
+
+.btn{
+display:inline-block;
+margin-top:40px;
+padding:14px 30px;
+background:rgba(255,255,255,0.08);
+border-radius:10px;
+text-decoration:none;
+color:white;
+transition:0.3s;
+}
+
+.btn:hover{
+background:rgba(255,255,255,0.2);
+}
+
+/* фиолетовые шары */
+
+.circle{
+position:absolute;
+width:250px;
+height:250px;
+background:radial-gradient(circle,#d48bff,#5a007a);
+border-radius:50%;
+filter:blur(20px);
+opacity:0.8;
+}
+
+.c1{top:-80px;left:-80px;}
+.c2{bottom:-100px;right:-100px;}
+.c3{bottom:-120px;left:200px;}
+
+</style>
+</head>
+
+<body>
+
+<div class="circle c1"></div>
+<div class="circle c2"></div>
+<div class="circle c3"></div>
+
+<div class="card">
+
+<h1>DARK<br>PRODUCTION</h1>
+<p class="sub">studio</p>
+
+<a class="btn" href="https://t.me/scmdark">CONTACT ME</a>
+
+<br>
+
+<a class="btn" href="https://t.me/dxprds">PORTFOLIO</a>
+
+</div>
+
+</body>
+</html>
